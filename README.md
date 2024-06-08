@@ -6,8 +6,8 @@ Essa é a API de uma aplicacao que foi desenvolvida para buscar dados do Censo d
 
 - *Python*: [https://www.python.org/] Python;
 - *FastAPI*: [https://fastapi.tiangolo.com/] Framework para criação de servidores simples em Python;
-- *Postgres*: [https://fastapi.tiangolo.com/] Banco de dados SQL;
 - *SQLAlchemy*: [https://www.sqlalchemy.org/] ORM para conexão com o banco de dados;
+- *Postgres*: [https://fastapi.tiangolo.com/] Banco de dados SQL;
 - *Docker*: [https://www.docker.com/] Ferramenta para contêinerização;
 - *API do IBGE*: [https://servicodados.ibge.gov.br/api/docs/nomes?versao=2#api-Nomes-nomeGet] API do IBGE para busca de dados do Censo de Nomes por década de nascimento.
 
