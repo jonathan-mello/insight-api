@@ -26,6 +26,8 @@ def create_censo_nome(req: dict, db: Session = Depends(get_db)):
         for res in item["res"]:
             periodo = res["periodo"]
             decada_formatada = periodo[1:5]
+            if "[" in decada_formatada:
+                decada_formatada = 1920
             frequencia = res["frequencia"]
             
             novo_censo = CensoNomes(
